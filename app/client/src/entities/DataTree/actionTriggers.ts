@@ -171,8 +171,8 @@ export type PostMessageDescription = {
   type: ActionTriggerType.POST_MESSAGE;
   payload: {
     message: any;
-    targetOrigin: any;
-    transfer?: [any];
+    targetOrigin: string;
+    transfer?: any[];
   };
 };
 
