@@ -172,7 +172,6 @@ export type PostMessageDescription = {
   payload: {
     message: any;
     targetOrigin: string;
-    transfer?: any[];
   };
 };
 
