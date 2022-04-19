@@ -257,7 +257,7 @@ const DATA_TREE_FUNCTIONS: Record<
         };
       },
   },
-  postMessageToTargetWindow: function(message: any, targetOrigin: string) {
+  postMessageToTargetWindow: function(message: unknown, targetOrigin: string) {
     return {
       type: ActionTriggerType.POST_MESSAGE,
       payload: {
