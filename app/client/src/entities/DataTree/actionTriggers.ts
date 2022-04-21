@@ -170,7 +170,7 @@ export type ConfirmationModal = {
 export type PostMessageDescription = {
   type: ActionTriggerType.POST_MESSAGE;
   payload: {
-    message: any;
+    message: unknown;
     targetOrigin: string;
   };
 };
